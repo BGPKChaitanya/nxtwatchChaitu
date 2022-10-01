@@ -1,0 +1,31 @@
+.vc-container {
+  margin: 5px;
+  text-decoration: none;
+}
+.thumbnail {
+  width: 300px;
+}
+.channelLogo {
+  height: 30px;
+  margin: 5px;
+}
+.description {
+  word-wrap: break-word;
+  text-decoration: none;
+}
+.videoText {
+  color: #ffffff;
+  margin: 3px;
+  word-wrap: break-word;
+  text-decoration: none;
+}
+.videoDescription {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  padding: 5px;
+}
+.views {
+  display: flex;
+  flex-direction: row;
+}

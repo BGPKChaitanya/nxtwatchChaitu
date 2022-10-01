@@ -1,0 +1,106 @@
+.home-content {
+  padding-top: 0px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.home-container {
+  background-color: #000000;
+  margin-right: 0px;
+  padding: 20px;
+  width: 100vw;
+}
+.banner-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png");
+  padding: 15px;
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.banner-image {
+  height: 30px;
+}
+.getButton {
+  height: 35px;
+  width: 100px;
+  font-size: 12px;
+  color: #475569;
+  border-color: #475569;
+  outline: none;
+  background-color: transparent;
+  border-width: 1px;
+  cursor: pointer;
+}
+.banner-close-btn {
+  background-color: transparent;
+  border-style: none;
+  align-self: flex-start;
+  cursor: pointer;
+}
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+}
+.search-input {
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  outline: none;
+}
+.button-search {
+  height: 35px;
+  width: 75px;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.video-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0%;
+  overflow-y: auto;
+}
+.failure-image {
+  height: 250px;
+}
+.fo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.fi-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-text {
+  font-family: "roboto";
+  color: #ffffff;
+  margin: 5px;
+  font-size: 20px;
+}
+.failure-text2 {
+  font-family: "roboto";
+  color: #ffffff;
+  margin: 5px;
+  font-size: 15px;
+}
+.retry {
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  border-style: none;
+  margin-top: 10px;
+  background-color: #4f46e5;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Roboto";
+}

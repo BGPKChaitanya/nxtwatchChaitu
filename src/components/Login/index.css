@@ -1,0 +1,57 @@
+.outerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.loginLogo {
+  height: 50px;
+  width: 200px;
+  margin: 15px;
+}
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-width: 1px;
+  width: 400px;
+  padding: 15px;
+  border-radius: 15px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  width: 100%;
+}
+label {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.inputBox {
+  margin-bottom: 5px;
+  width: 100%;
+  height: 35px;
+  padding: 5px;
+  margin-bottom: 5px;
+  outline: none;
+}
+.loginButton {
+  height: 35px;
+  border-radius: 5px;
+  border-style: none;
+  margin-top: 10px;
+  background-color: #4f46e5;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.errorMsg {
+  color: red;
+  margin: 0px;
+  font-size: 15px;
+}

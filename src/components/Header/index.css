@@ -1,0 +1,42 @@
+.imageStyle {
+  height: 30px;
+}
+.header-container {
+  background-color: #181818;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+.logOut {
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #3b82f6;
+  border-color: #3b82f6;
+  outline: none;
+  background-color: transparent;
+  border-width: 1px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.profile-image {
+  height: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.theme-btn {
+  background-color: transparent;
+  border-style: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
